@@ -60,6 +60,7 @@ df = df.iloc[:, 1:]
 A scatter plot is used to visualize the relationship between CGPA, IQ, and the placement classes.
 
 This helps understand how the two features are distributed and how well the classes can potentially be separated.
+
 3. Feature and Target Extraction
 The input features are separated from the target variable:
 x = df.iloc[:, 0:2]
