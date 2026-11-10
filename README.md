@@ -98,6 +98,7 @@ from sklearn.linear_model import LogisticRegression
 clf = LogisticRegression()
 clf.fit(x_train, y_train)
 Logistic Regression is suitable here because the project is performing binary classification.
+
 7. Prediction
 The trained model is used to predict the placement labels for the test set:
 y_pred = clf.predict(x_test)
