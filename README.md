@@ -178,16 +178,3 @@ with open("placement.pkl", "rb") as f:
 ⚠️ Important
 The saved Logistic Regression model was trained using StandardScaler.
 
-Therefore, raw values such as:
-sample = [[7.2, 130]]
-should not be passed directly to the saved model.
-
-For a proper real-world prediction pipeline, the scaler should also be saved:
-import pickle
-
-pickle.dump(scaler, open("scaler.pkl", "wb"))
-Then the scaler can be loaded and applied before prediction:
-with open("scaler.pkl", "rb") as f:
-    scaler = pickle.load(f)
-
-sample = [[7.2, 130]]
