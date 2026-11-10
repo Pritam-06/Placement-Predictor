@@ -90,6 +90,7 @@ scaler = StandardScaler()
 x_train = scaler.fit_transform(x_train)
 x_test = scaler.transform(x_test)
 The scaler is fitted only on the training data and then applied to the test data.
+
 6. Model Training
 A Logistic Regression classifier is trained using the scaled training data:
 from sklearn.linear_model import LogisticRegression
