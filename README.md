@@ -5,7 +5,7 @@ A beginner-friendly Machine Learning project that predicts whether a student wil
 
 This project demonstrates an end-to-end Machine Learning workflow — from data loading and exploratory data analysis to preprocessing, feature scaling, model training, evaluation, decision-boundary visualization, and model serialization.
 📚 Table of Contents
-- Overview
+- Overview 
 - Project Structure
 - Dataset
 - Machine Learning Workflow
