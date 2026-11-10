@@ -55,6 +55,7 @@ import pandas as pd
 df = pd.read_csv("placement.csv")
 The dataset is then inspected and the unnecessary index column is removed:
 df = df.iloc[:, 1:]
+
 2. Exploratory Data Analysis (EDA)
 A scatter plot is used to visualize the relationship between CGPA, IQ, and the placement classes.
 
