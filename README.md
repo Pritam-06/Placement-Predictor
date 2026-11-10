@@ -129,6 +129,8 @@ import pickle
 
 pickle.dump(clf, open("placement.pkl", "wb"))
 This allows the trained model to be saved and loaded later without retraining it.
+
+
 🛠️ Tech Stack
 Technology	Purpose
 Python 3.x	Programming language
@@ -139,30 +141,3 @@ Scikit-learn	Preprocessing, model training, and evaluation
 Mlxtend	Decision-boundary visualization
 Pickle	Model serialization
 Jupyter Notebook	Development environment
-
-
-🚀 Getting Started
-1. Clone the Repository
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
-Replace your-username/your-repository-name with your actual GitHub repository URL.
-2. Install Dependencies
-Make sure Python 3.x is installed, then run:
-pip install numpy pandas matplotlib scikit-learn mlxtend jupyter
-3. Run the Notebook
-Start Jupyter Notebook:
-jupyter notebook
-Then open:
-Toy_Project.ipynb
-Make sure placement.csv is in the same directory as the notebook.
-
-You can also open the notebook using Google Colab.
-📈 Model Performance
-Metric	Value
-Algorithm	Logistic Regression
-Features	CGPA, IQ
-Training Data	80%
-Testing Data	20%
-Test Accuracy	90%
-
-
