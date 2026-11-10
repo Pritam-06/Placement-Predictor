@@ -8,7 +8,7 @@ This project demonstrates an end-to-end Machine Learning workflow — from data 
 - Overview 
 - Project Structure
 - Dataset
-- Machine Learning Workflow
+- Machine Learning Workflow   
 - Tech Stack
 - Getting Started
 - Model Performance
