@@ -102,6 +102,7 @@ Logistic Regression is suitable here because the project is performing binary cl
 7. Prediction
 The trained model is used to predict the placement labels for the test set:
 y_pred = clf.predict(x_test)
+
 8. Model Evaluation
 The model's performance is evaluated using accuracy:
 from sklearn.metrics import accuracy_score
