@@ -191,17 +191,3 @@ with open("scaler.pkl", "rb") as f:
     scaler = pickle.load(f)
 
 sample = [[7.2, 130]]
-
-sample_scaled = scaler.transform(sample)
-prediction = model.predict(sample_scaled)
-
-print("Placed" if prediction[0] == 1 else "Not Placed")
-This keeps the preprocessing used during prediction consistent with the preprocessing used during training.
-🔮 Future Improvements
-Some possible improvements for this project are:
-- Add more student-related features such as internships, communication skills, academic performance, and backlogs.
-- Compare Logistic Regression with other classification algorithms such as:
-  - Random Forest
-  - Support Vector Machine (SVM)
-  - Decision Tree
-  - XGBoost
