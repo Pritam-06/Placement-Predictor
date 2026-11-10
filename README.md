@@ -166,15 +166,3 @@ Testing Data	20%
 Test Accuracy	90%
 
 
-The reported 90% accuracy corresponds to the current test split used in the project.
-
-Because the original notebook does not set a fixed random_state, the exact result may change when the notebook is executed again.
-🧠 Model Usage
-The trained model can be loaded using pickle:
-import pickle
-
-with open("placement.pkl", "rb") as f:
-    model = pickle.load(f)
-⚠️ Important
-The saved Logistic Regression model was trained using StandardScaler.
-
