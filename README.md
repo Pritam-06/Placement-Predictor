@@ -9,7 +9,7 @@ This project demonstrates an end-to-end Machine Learning workflow — from data 
 - Project Structure
 - Dataset
 - Machine Learning Workflow   
-- Tech Stack
+- Tech Stack   
 - Getting Started
 - Model Performance
 - Model Usage
